@@ -36,6 +36,5 @@ df_copy.sort_values(by=["Profit (in millions)"], inplace=True, ascending = False
 
 
 # will print the top 20 rows corresponding to the sorted "profit" column 
-for i in range(0,20):
-    print(df_copy.iloc[i,:])
+print(df_copy.iloc[0:20,:])
 

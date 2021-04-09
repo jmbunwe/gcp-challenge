@@ -17,4 +17,4 @@ The challenge I'm completing is the "highest profit" challenge where I have to c
 6. Applied the mask to the copied Dataframe and printed the number of rows (length) using len() again
 7. Next converted every value in the "profit" column of copied Dataframe to a numerical value (float)
 8. Made a JSON file with updated info from copied Dataframe called data2.json
-9. Sorted the "profit" column fro highest to lowest and then printed the first 20 rows corresponding to the highest profit values
+9. Sorted the "profit" column from highest to lowest and then printed the first 20 rows corresponding to the highest profit values

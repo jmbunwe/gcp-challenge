@@ -28,7 +28,7 @@ for num in df_copy["Profit (in millions)"]:
 
 
 # making JSON file of our updated dataframe
-df_copy.to_json(r'C:\Users\woods\Documents\GCP Challenge\data2.json')
+df_copy.to_json(r'output\data2.json')
 
 
 # sort the dataframe by the "profit" values in descending order (highest to lowest)

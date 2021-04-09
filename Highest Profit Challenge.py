@@ -9,14 +9,14 @@ import json
 df = pd.read_csv("data.csv") # reading in the dataframe
 df_copy = df # making a copy of the dataframe so we don't overwrite the data
 
-print(len(df_copy)) # prints the number of rows in the original dataframe
+print(f"Number of rows in the original csv file: {len(df_copy)}") # prints the number of rows in the original dataframe
 
 
 df_copy["Profit (in millions)"].tolist() # did a quick visual check and found that the non-numeric value was the string N.A.
 numeric_filter = df_copy["Profit (in millions)"] != "N.A." # made a mask that only pulled the rows without the N.A. string
 df_copy = df_copy[numeric_filter] # applied the mask so that the dataframe only contained the rows with numeric values
 
-print(len(df_copy)) # prints the number of rows of the modified dataframe without the non-numeric values
+print(f"Number of rows after removing non-numeric values: {len(df_copy)}") # prints the number of rows of the modified dataframe without the non-numeric values
 
 
 # Part 2

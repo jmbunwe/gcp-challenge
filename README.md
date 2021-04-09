@@ -5,7 +5,10 @@ The challenge I'm completing is the "highest profit" challenge where I have to c
 ## Source: 
 * CSV file titled "data.csv"
 
-## Process:
+## To run:
+* Click on run.bat
+
+## Process Description:
 1. Imported the libraries to use - pandas and json
 2. Read the csv file and made a copy. A copy was made so the original remained unchanged (minimizes errors when updating and prevents accidental irreversible changes)
 3. Printed the length of the copied Dataframe using len(), which gives the number of rows 

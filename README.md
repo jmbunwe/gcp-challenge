@@ -16,5 +16,5 @@ The challenge I'm completing is the "highest profit" challenge where I have to c
 5. Created a mask that pulled the rows that didn't have the string "N.A."
 6. Applied the mask to the copied Dataframe and printed the number of rows (length) using len() again (*2nd number output*)
 7. Next converted every value in the "profit" column of copied Dataframe to a numerical value (float)
-8. Made a JSON file with updated info from copied Dataframe called data2.json
+8. Made a JSON file with updated info from copied Dataframe called data2.json (oriented it as "records" for easier readability)
 9. Sorted the "profit" column from highest to lowest and then printed the first 20 rows corresponding to the highest profit values

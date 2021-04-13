@@ -23,12 +23,15 @@ print(f"Number of rows after removing non-numeric values: {len(df_copy)}") # pri
 
 
 # following process takes the string values in the "profit" column and converts each value to a float
-for num in df_copy["Profit (in millions)"]:
-    df_copy["Profit (in millions)"].replace(to_replace = num, value = float(num))
+count = 0 
+numbers = df_copy["Profit (in millions)"].tolist() #list of all numeric values as strings
+while count < len(df_copy):
+    df_copy.iloc[count,4] = float(numbers[count])
+    count += 1
 
 
 # making JSON file of our updated dataframe
-df_copy.to_json(r'output\data2.json')
+df_copy.to_json(r'output\data2.json', orient="records")
 
 
 # sort the dataframe by the "profit" values in descending order (highest to lowest)

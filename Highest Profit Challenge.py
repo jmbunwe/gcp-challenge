@@ -1,7 +1,9 @@
 # importing the necessary libraries
 import pandas as pd
 import json
+import warnings
 
+warnings.filterwarnings("ignore")
 
 # Part 1
 

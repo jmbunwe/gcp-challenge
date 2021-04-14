@@ -31,7 +31,7 @@ while count < len(df_copy):
 
 
 # making JSON file of our updated dataframe
-df_copy.to_json(r'output\data2.json', orient="records")
+df_copy.to_json(r'output\data2.json', orient="records",  indent = 2)
 
 
 # sort the dataframe by the "profit" values in descending order (highest to lowest)

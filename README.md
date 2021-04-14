@@ -9,7 +9,7 @@ The challenge I'm completing is the "highest profit" challenge where I have to c
 * Click on run.bat
 
 ## Process Description:
-1. Imported the libraries to use - pandas and json
+1. Imported the libraries to use - pandas and json. I also wanted to suppress the warnings in my code because they were just logisitical and didn't impact my code.
 2. Read the csv file and made a copy. A copy was made so the original remained unchanged (minimizes errors when updating and prevents accidental irreversible changes)
 3. Printed the length of the copied Dataframe using len(), which gives the number of rows (*1st number output*)
 4. Did a quick visual inspection of the "profit" column by converting the series to a list and saw the non-numeric value was the string "N.A."
